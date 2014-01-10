@@ -1,0 +1,36 @@
+.carousel{
+    margin-top: 5px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 0;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 450px;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 500%;
+  height: 500px;
+}
+.carousel .active.left {
+    left:2;
+    opacity:0;
+    z-index:2;
+}
+.item {
+    height: 400px;
+	width: 300px;
+      
+}
+
+.carousel-control{
+	top: 10%;
+}
+.bs-example{
+	width: 628px;
+}

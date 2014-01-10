@@ -1,0 +1,298 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  background: #c8eafa;
+  
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+#image{
+	border-radius: 1em;
+}
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#wrap > .container {
+  padding: 50px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+#home {
+	margin-top: 1px;
+
+}
+
+#home .column {
+	position: relative;
+	overflow: hidden;
+}
+
+#home h3 {
+	padding-bottom: 8px;
+	margin-bottom: 12px;
+	color: #ffffff;
+}
+#home h3 a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#home .column > a {
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 166px;
+	padding: 9px 13px;
+	font: 13px/16px Arvo, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+#home .column.two > a {
+	width: 363px;
+}
+
+#facebook {
+	background-color: #3b5998;
+}
+
+#facebook p {
+	font-style: italic;
+}
+
+#facebook span {
+	display: block;
+	padding-bottom: 40px;
+	padding-left: 31px;
+	font-size: 11px;
+	line-height: 13px;
+	color: #9daccc;
+}
+	
+#enrollment {
+	background-color: #a062d0;
+	padding-bottom: 41px;
+}
+#aboutus {
+	background-color: #e0366f;
+	padding-bottom: 41px;
+}
+#welcome {
+	background-color: #abd745;
+}
+#welcome2 {
+	background-color: #1989cf;
+	height: 72px;
+	
+}
+
+
+#a {
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 322px;
+	padding: 9px 13px;
+	font: 13px/16px Arvo, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+a {
+	text-decoration: none;
+	color: #e52e6b;
+}
+
+#gclh {
+	padding-top: 60px;
+	text-align: center;
+	font-family: Monotype Corsiva;
+	font-size: 60px;
+}
+
+#aboutushtml {
+	font-family: Monotype Corsiva;
+	font-size: 23px;
+}
+
+#contact {
+	padding-top: 20px;
+	text-align: center;
+	font-family: Monotype Corsiva;
+	font-size: 60px;
+}
+#contactp {
+	padding-top: 20px;
+	font-family: Arial;
+	font-size: 18px;
+	
+}
+
+#tabel1{
+	border-top-width:0;
+	border-right-width:0;
+	border-bottom-width:0;
+	border-left-width:0;
+	padding-top:10px;
+	padding-right:10px;
+	padding-left:10px;
+	width:35%;
+
+}
+#tabel{
+	border-top-width:0;
+	border-right-width:0;
+	border-bottom-width:0;
+	border-left-width:0;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	width:55%;
+}
+
+#signup{
+	border-top-width:0;
+	border-right-width:0;
+	border-bottom-width:0;
+	border-left-width:0;
+	padding-top:40px;
+	padding-right:5px;
+	padding-bottom:20px;
+	padding-left:5px;
+	width:35%;
+}
+
+.form-signin {
+  max-width: 330px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.error{
+    
+            color:red;
+}
+
+.nav-justified {
+  background-color: #eee;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+
+}
+.nav-justified > li > a {
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #777;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #d5d5d5;
+  background-color: #e5e5e5; /* Old browsers */
+  background-repeat: repeat-x; /* Repeat the gradient */
+  background-image: -moz-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%); /* FF3.6+ */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+  background-image: -webkit-linear-gradient(top, #f5f5f5 0%,#e5e5e5 100%); /* Chrome 10+,Safari 5.1+ */
+  background-image: -o-linear-gradient(top, #f5f5f5 0%,#e5e5e5 100%); /* Opera 11.10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+  background-image: linear-gradient(top, #f5f5f5 0%,#e5e5e5 100%); /* W3C */
+}
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus {
+  background-color: #ddd;
+  background-image: none;
+  box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+.nav-justified > li:first-child > a {
+  border-radius: 5px 5px 0 0;
+}
+.nav-justified > li:last-child > a {
+  border-bottom: 0;
+  border-radius: 0 0 5px 5px;
+}
+@media (min-width: 768px) {
+  .nav-justified {
+    max-height: 52px;
+  }
+  .nav-justified > li > a {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #d5d5d5;
+  }
+  .nav-justified > li:first-child > a {
+    border-left: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  .nav-justified > li:last-child > a {
+    border-radius: 0 5px 5px 0;
+    border-right: 0;
+  }
+}
+
+
