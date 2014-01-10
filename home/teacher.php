@@ -96,7 +96,7 @@
 								<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Add Teacher</button>
 								</br></br><table class="table">
 									<tr>
-										<td>First Name</td>
+										<td>First Name sassas</td>
 										<td>Last Name</td>
 										<td>Middle Name</td>
 										<td>Email Address</td>										
